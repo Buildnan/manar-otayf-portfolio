@@ -1,0 +1,1 @@
+Portfolio artwork assets are generated from the approved Manar Otayf portfolio PDF and published by the NAN Studio workflow.
