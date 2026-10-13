@@ -1,4 +1,4 @@
 # Roadmap
-- [ ] Build Arabic RTL editorial portfolio and all approved content.
-- [ ] Add original-artwork placeholders, internal navigation, and contact links.
-- [ ] Verify desktop/mobile layout, navigation, metadata, and preview health.
+- [x] Build Arabic RTL editorial portfolio and all approved content.
+- [x] Add original-artwork placeholders, internal navigation, and contact links.
+- [x] Verify desktop/mobile layout, navigation, metadata, and preview health.
