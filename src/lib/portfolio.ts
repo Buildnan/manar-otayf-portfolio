@@ -12,7 +12,7 @@ export const categories = [
   { id: "social", number: "02", title: "تصاميم سوشال ميديا", label: "السوشال ميديا" },
   { id: "ai", number: "03", title: "تصاميم باستخدام تقنيات Ai", label: "تقنيات Ai" },
   { id: "print", number: "04", title: "تصاميم الاستكرات والمطبوعات", label: "الاستكرات والمطبوعات" },
-];
+] as const;
 export const logos: PortfolioProject[] = [
   { name: "بساطها أحمدي", subtitle: "ABAYAS STORE", alt: "الشعار الأصلي لمشروع بساطها أحمدي — متجر عبايات" },
   { name: "مخلاف", alt: "الشعار الأصلي لمشروع مخلاف" },
