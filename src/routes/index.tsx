@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowUpLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Artwork, Chapter, Gallery, Hero, PortfolioNav, RevealObserver, SectionLabel } from "@/components/portfolio";
+import { Chapter, Gallery, Hero, PortfolioNav, RevealObserver, SectionLabel } from "@/components/portfolio";
 import { aboutText, campaigns, categories, closingText, logos, posters, prints } from "@/lib/portfolio";
 
 export const Route = createFileRoute("/")({
@@ -30,13 +30,18 @@ function Index() {
           <div className="resume-grid">
             <div className="resume-column"><h3>الأهداف</h3><ul className="goals"><li>التصميم الإبداعي وتطوير الأفكار المبتكرة</li><li>تصميم المنتجات والهدايا التذكارية</li><li>تصميم الهوية البصرية والعناصر الترويجية</li></ul></div>
             <div className="resume-column"><h3>المهارات التصميمية</h3><div className="skills">{["Photoshop", "Illustrator", "AutoCAD", "Rhinoceros", "Canva", "SketchUp", "Sketchbook"].map((skill) => <span key={skill}>{skill}</span>)}</div></div>
-            <div className="resume-column"><h3>التعليم</h3><p className="education">بكالوريوس فنون تطبيقية</p><div className="experience-placeholder"><h4>الخبرات — قيد المراجعة</h4><p>مساحة لإضافة جهات العمل، المسميات الوظيفية والفترات بعد تأكيدها.</p></div></div>
+            <div className="resume-column"><h3>التعليم والخبرات</h3><p className="education">بكالوريوس فنون تطبيقية</p><div className="experience-list">
+              <article><h4>عمل حر — 6 سنوات</h4><p>تصميم وإنتاج المنتجات الورقية المخصصة، بما في ذلك التوزيعات والمطبوعات.</p></article>
+              <article><h4>عمل حر — سنة واحدة</h4><p>تنفيذ مشاريع تصميم الهوية البصرية، ومحتوى وسائل التواصل الاجتماعي، والمطبوعات لعدد من العملاء.</p></article>
+              <article><h4>تدريب تعاوني</h4><p>تصميم منتجات الأثاث وتطوير الأفكار والمفاهيم التصميمية.</p></article>
+              <article><h4>تدريب</h4><p>تصميم المواد التسويقية والمحتوى لمنصات التواصل الاجتماعي، وتحرير وإنتاج الفيديوهات الترويجية.</p></article>
+            </div></div>
           </div>
         </div>
       </section>
       <section id="work" className="work-index section-spacing"><div className="page-width reveal"><SectionLabel number="03" text="أعمال مختارة" /><h2 className="section-heading">لكل فكرة.. حكاية بصرية.</h2><nav aria-label="فئات الأعمال">{categories.map((category) => <Button key={category.id} asChild variant="editorial" className="category-link"><a href={`#${category.id}`}><span className="category-number" dir="ltr">{category.number}</span><h3>{category.title}</h3><ArrowUpLeft aria-hidden="true" /></a></Button>)}</nav></div></section>
       <section id="logos" aria-label="تصاميم شعارات"><Chapter category={categories[0]} /><Gallery projects={logos} /></section>
-      <section id="social" aria-label="تصاميم سوشال ميديا"><Chapter category={categories[1]} /><div className="campaigns page-width">{campaigns.map((campaign, index) => <div className="campaign reveal" key={campaign.name}><div className="campaign-header"><div><h3>{campaign.name}</h3>{campaign.subtitle && <p>{campaign.subtitle}</p>}</div><span dir="ltr">{String(index + 1).padStart(2, "0")}</span></div><div className="campaign-images">{[0,1,2].map((slot) => <Artwork key={slot} project={{ ...campaign, alt: `${campaign.alt} — مساحة ${slot + 1}` }} />)}</div></div>)}</div></section>
+      <section id="social" aria-label="تصاميم سوشال ميديا"><Chapter category={categories[1]} /><Gallery projects={campaigns} /></section>
       <section id="ai" aria-label="تصاميم باستخدام تقنيات Ai"><Chapter category={categories[2]} /><Gallery projects={posters} layout="posters" /></section>
       <section id="print" aria-label="تصاميم الاستكرات والمطبوعات"><Chapter category={categories[3]} /><Gallery projects={prints} layout="prints" /></section>
       <section id="contact" className="closing"><div className="page-width"><SectionLabel number="04" text="تواصل" /><div className="closing-layout reveal"><h2>ختاماً..</h2><p className="closing-text">{closingText}</p></div><div className="contact-row">
