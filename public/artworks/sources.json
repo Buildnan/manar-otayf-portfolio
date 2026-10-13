@@ -1,0 +1,254 @@
+[
+  {
+    "file": "logos/basatha.webp",
+    "source": "02_logos.pdf",
+    "page": 2,
+    "width": 2049,
+    "height": 1025
+  },
+  {
+    "file": "logos/mikhlaf.webp",
+    "source": "02_logos.pdf",
+    "page": 3,
+    "width": 2049,
+    "height": 1025
+  },
+  {
+    "file": "logos/bannaz.webp",
+    "source": "02_logos.pdf",
+    "page": 4,
+    "width": 2049,
+    "height": 1025
+  },
+  {
+    "file": "logos/iqraa.webp",
+    "source": "02_logos.pdf",
+    "page": 5,
+    "width": 2049,
+    "height": 1025
+  },
+  {
+    "file": "social/mikhlaf-1.webp",
+    "source": "03_social_media.pdf",
+    "page": 2,
+    "width": 583,
+    "height": 843
+  },
+  {
+    "file": "social/mikhlaf-2.webp",
+    "source": "03_social_media.pdf",
+    "page": 2,
+    "width": 1035,
+    "height": 1459
+  },
+  {
+    "file": "social/mikhlaf-3.webp",
+    "source": "03_social_media.pdf",
+    "page": 2,
+    "width": 583,
+    "height": 843
+  },
+  {
+    "file": "social/hr-1.webp",
+    "source": "03_social_media.pdf",
+    "page": 3,
+    "width": 536,
+    "height": 450
+  },
+  {
+    "file": "social/hr-2.webp",
+    "source": "03_social_media.pdf",
+    "page": 3,
+    "width": 552,
+    "height": 450
+  },
+  {
+    "file": "social/hr-3.webp",
+    "source": "03_social_media.pdf",
+    "page": 3,
+    "width": 474,
+    "height": 681
+  },
+  {
+    "file": "social/hr-4.webp",
+    "source": "03_social_media.pdf",
+    "page": 3,
+    "width": 534,
+    "height": 433
+  },
+  {
+    "file": "social/hr-5.webp",
+    "source": "03_social_media.pdf",
+    "page": 3,
+    "width": 551,
+    "height": 432
+  },
+  {
+    "file": "social/bannaz-1.webp",
+    "source": "03_social_media.pdf",
+    "page": 4,
+    "width": 432,
+    "height": 440
+  },
+  {
+    "file": "social/bannaz-2.webp",
+    "source": "03_social_media.pdf",
+    "page": 4,
+    "width": 424,
+    "height": 430
+  },
+  {
+    "file": "social/bannaz-3.webp",
+    "source": "03_social_media.pdf",
+    "page": 4,
+    "width": 418,
+    "height": 416
+  },
+  {
+    "file": "social/bannaz-4.webp",
+    "source": "03_social_media.pdf",
+    "page": 4,
+    "width": 431,
+    "height": 434
+  },
+  {
+    "file": "social/bannaz-5.webp",
+    "source": "03_social_media.pdf",
+    "page": 4,
+    "width": 427,
+    "height": 422
+  },
+  {
+    "file": "social/bannaz-6.webp",
+    "source": "03_social_media.pdf",
+    "page": 4,
+    "width": 423,
+    "height": 428
+  },
+  {
+    "file": "social/podcast-1.webp",
+    "source": "03_social_media.pdf",
+    "page": 5,
+    "width": 405,
+    "height": 428
+  },
+  {
+    "file": "social/podcast-2.webp",
+    "source": "03_social_media.pdf",
+    "page": 5,
+    "width": 427,
+    "height": 439
+  },
+  {
+    "file": "social/podcast-3.webp",
+    "source": "03_social_media.pdf",
+    "page": 5,
+    "width": 420,
+    "height": 429
+  },
+  {
+    "file": "social/podcast-4.webp",
+    "source": "03_social_media.pdf",
+    "page": 5,
+    "width": 405,
+    "height": 421
+  },
+  {
+    "file": "social/podcast-5.webp",
+    "source": "03_social_media.pdf",
+    "page": 5,
+    "width": 421,
+    "height": 429
+  },
+  {
+    "file": "social/podcast-6.webp",
+    "source": "03_social_media.pdf",
+    "page": 5,
+    "width": 419,
+    "height": 426
+  },
+  {
+    "file": "social/mother-language-1.webp",
+    "source": "03_social_media.pdf",
+    "page": 6,
+    "width": 503,
+    "height": 648
+  },
+  {
+    "file": "social/mother-language-2.webp",
+    "source": "03_social_media.pdf",
+    "page": 6,
+    "width": 490,
+    "height": 600
+  },
+  {
+    "file": "social/mother-language-3.webp",
+    "source": "03_social_media.pdf",
+    "page": 6,
+    "width": 514,
+    "height": 638
+  },
+  {
+    "file": "ai/poster-1.webp",
+    "source": "04_ai_designs.pdf",
+    "page": 2,
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "file": "ai/poster-2.webp",
+    "source": "04_ai_designs.pdf",
+    "page": 2,
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "file": "ai/poster-3.webp",
+    "source": "04_ai_designs.pdf",
+    "page": 3,
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "file": "ai/poster-4.webp",
+    "source": "04_ai_designs.pdf",
+    "page": 3,
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "file": "prints/products.webp",
+    "source": "05_stickers_prints.pdf",
+    "page": 2,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "prints/saudi-engineering-matcha.webp",
+    "source": "05_stickers_prints.pdf",
+    "page": 3,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "prints/characters.webp",
+    "source": "05_stickers_prints.pdf",
+    "page": 4,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "prints/feminine.webp",
+    "source": "05_stickers_prints.pdf",
+    "page": 5,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "prints/calendar-planner.webp",
+    "source": "05_stickers_prints.pdf",
+    "page": 6,
+    "width": 1280,
+    "height": 720
+  }
+]

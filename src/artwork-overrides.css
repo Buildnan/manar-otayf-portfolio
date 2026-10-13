@@ -14,3 +14,10 @@
   .gallery .project:only-child { grid-column: 1 / -1 !important; }
   .gallery .project:only-child .artwork { aspect-ratio: auto !important; }
 }
+
+/* Preserve the original proportions of the supplied artwork on every screen. */
+.campaign-images { align-items: start; }
+.campaign-images .artwork { aspect-ratio: auto; }
+.campaign-images .artwork img { display: block; height: auto; object-fit: contain; }
+.gallery-prints .artwork { aspect-ratio: auto !important; }
+.gallery-prints .artwork img { display: block; height: auto; }

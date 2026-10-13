@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowUpLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Chapter, Gallery, Hero, PortfolioNav, RevealObserver, SectionLabel } from "@/components/portfolio";
+import { Artwork, Chapter, Gallery, Hero, PortfolioNav, RevealObserver, SectionLabel } from "@/components/portfolio";
 import { aboutText, campaigns, categories, closingText, logos, posters, prints } from "@/lib/portfolio";
 
 export const Route = createFileRoute("/")({
@@ -41,7 +41,7 @@ function Index() {
       </section>
       <section id="work" className="work-index section-spacing"><div className="page-width reveal"><SectionLabel number="03" text="أعمال مختارة" /><h2 className="section-heading">لكل فكرة.. حكاية بصرية.</h2><nav aria-label="فئات الأعمال">{categories.map((category) => <Button key={category.id} asChild variant="editorial" className="category-link"><a href={`#${category.id}`}><span className="category-number" dir="ltr">{category.number}</span><h3>{category.title}</h3><ArrowUpLeft aria-hidden="true" /></a></Button>)}</nav></div></section>
       <section id="logos" aria-label="تصاميم شعارات"><Chapter category={categories[0]} /><Gallery projects={logos} /></section>
-      <section id="social" aria-label="تصاميم سوشال ميديا"><Chapter category={categories[1]} /><Gallery projects={campaigns} /></section>
+      <section id="social" aria-label="تصاميم سوشال ميديا"><Chapter category={categories[1]} /><div className="campaigns page-width">{campaigns.map((campaign, index) => <div className="campaign reveal" key={campaign.name}><div className="campaign-header"><div><h3>{campaign.name}</h3>{campaign.subtitle && <p>{campaign.subtitle}</p>}</div><span dir="ltr">{String(index + 1).padStart(2, "0")}</span></div><div className="campaign-images">{campaign.artworks?.map((artwork) => <Artwork key={artwork.image} project={artwork} />)}</div></div>)}</div></section>
       <section id="ai" aria-label="تصاميم باستخدام تقنيات Ai"><Chapter category={categories[2]} /><Gallery projects={posters} layout="posters" /></section>
       <section id="print" aria-label="تصاميم الاستكرات والمطبوعات"><Chapter category={categories[3]} /><Gallery projects={prints} layout="prints" /></section>
       <section id="contact" className="closing"><div className="page-width"><SectionLabel number="04" text="تواصل" /><div className="closing-layout reveal"><h2>ختاماً..</h2><p className="closing-text">{closingText}</p></div><div className="contact-row">
